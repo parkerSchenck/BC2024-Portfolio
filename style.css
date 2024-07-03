@@ -1,0 +1,320 @@
+
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overscroll-behavior-x: contain;
+  background-image: url('https://64.media.tumblr.com/4e8a1e46bc0a8b6aa2f533892c472e2d/tumblr_pvyv8x2Ezg1uzwgsuo1_400.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  animation-name: webpage;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  
+}
+
+/*@keyframes webpage {
+   0%  {background-color:rgb(179, 229, 255); left:200px; top:200px;}
+  10%  {background-color:rgb(164, 223, 255); left:200px; top:200px;}
+  20%  {background-color:rgb(145, 218, 255); left:200px; top:200px;}
+  30%  {background-color:rgb(90, 214, 255); left:200px; top:200px;}
+  40%  {background-color:rgb(35, 200, 255); left:200px; top:200px;}
+  50%  {background-color:rgb(0, 204, 255); left:200px; top:200px;}
+  60%  {background-color:rgb(35, 200, 255); left:200px; top:200px;}
+  70%  {background-color:rgb(90, 214, 255); left:200px; top:200px;;}
+  80%  {background-color:rgb(145, 218, 255); left:200px; top:200px;}
+  90%  {background-color:rgb(179, 229, 255); left:200px; top:200px;}
+  100% {background-color:rgb(179, 229, 255); left:200px; top:200px;}
+  
+} */
+
+.img{
+    width:350px;
+    height:200px;
+}
+
+.NHSpic{
+    width: 300px;
+    height: 230px;
+}
+
+.track-pic{
+    width: 250px;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.code-pics1,
+.html-pic,
+.css-pic,
+.python-pic{
+    width: 250px;
+    height: 200px; 
+    float: left;
+    margin-bottom: 20%;
+    
+}
+
+.code-pics2,
+.java-pic,
+.javascript-pic,
+.hp-pic{
+    width: 250px;
+    height: 200px; 
+    float: right;
+    margin-bottom: 20%;
+    
+}
+
+
+hr {
+    width: 83%;
+}
+
+.about-me-column {
+    float: left;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: rgb(37, 4, 249);
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 20%;
+    padding-bottom: 3%;
+    border-radius: 20%;
+    display:none;
+    box-shadow: 5px 10px rgb(37, 4, 249, 0.6);
+  }
+  
+  .about-me-column.side2,
+  .about-me-column.side {
+    width: 20%;
+    display:none;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 5px 10px rgb(37, 4, 249, 0.6);
+  }
+  
+  
+  .about-me-column.middle {
+    width: 50%;
+    display:none;
+    text-align: center;
+    border-radius: 20%;
+    box-shadow: 5px 10px rgb(37, 4, 249, 0.6);
+  }
+  
+
+  .about-me-row::after {
+    content: "";
+    display: table;
+    clear: both;
+    display:none;
+  }
+
+  .p4,
+  .p3,
+  .p2,
+  .p{
+    color: rgb(21, 0, 159);
+    font-size: x-large;
+  }
+  
+
+.projects-column3,
+.projects-column2,
+.projects-column {
+    float: left;
+    background-color: rgb(255, 255, 255, 0.5);
+    box-shadow: black;
+    width: 30%;
+    padding: 0;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 20%;
+    margin-top:5%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size:x-large;
+    color: rgb(37, 4, 249);
+    border-radius: 20%;
+    display:none;
+    box-shadow: 5px 10px rgb(37, 4, 249, 0.6);
+  }
+  
+  /* Clear floats after the columns */
+  .projects-row::after {
+    content: "";
+    display: table;
+    clear: both;
+    display:none;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other
+
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  */
+.welcome-header,
+.home-header{
+    text-align: center;
+    font-style: italic;
+    font-size:x-large;
+    color: rgb(37, 4, 249);
+    text-shadow: 1px 4px rgb(0, 0, 0,0.2);
+}
+
+.welcome-header{
+    margin-bottom: 100px;
+}
+
+.sources-header,
+.about-me-header,
+.aspirations-header,
+.skills-header,
+.projects-header,
+.contact-me-header{
+    text-align: center;
+    font-style: italic;
+    font-size:x-large;
+    color: rgb(37, 4, 249);
+    display: none;
+    border-radius: 80%;
+    margin: 5px auto;
+    margin-bottom: 5%;
+    padding: 20px;
+    height:10%;
+    width:90%;
+    align-items: center;
+    text-shadow: 1px 4px rgb(0, 0, 0,0.2);
+
+
+}
+
+.navbar{
+    text-align: center;
+    color: goldenrod;
+    
+}
+
+
+.nav-buttons{
+    color: blue;
+    background-color: rgb(255, 177, 148);
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+
+.home,
+.about-me-button,
+.aspirations-button,
+.skills-button,
+.projects-button,
+.sources-button,
+.contact-me-button{
+    color: blue;
+    font-size: larger;
+    font-style: italic;
+    width: px;
+    margin: 0;
+    padding: 20px;
+    border-bottom:4px solid rgb(37, 4, 249, 0.7);
+    /*background-color: rgb(246, 246, 246);*/
+    
+    box-shadow: 4px 7px rgb(37, 4, 249, 0.6);
+    
+}
+
+.portrait-img{
+    align-items: center;
+    color:blue;
+    border:2px solid rgb(37, 4, 249);
+    box-shadow: 2px 7px rgb(37, 4, 249,0.6);
+    border-radius: 50%;
+    width: 25%;
+}
+
+.sources-body,
+.aspirations-body,
+.skills-body{
+    text-align: center;
+    font-style:normal;
+    font-size:large;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: rgb(37, 4, 249);
+    display: none;
+    border-radius: 20%;
+    height: 100px,auto;
+    width:600px;
+    margin: 5px auto;
+    padding: 50px;
+    margin-bottom: 20px;
+    box-shadow: 4px 7px rgb(37, 4, 249, 0.6);
+}
+.contact-me-body{
+    text-align: center;
+    font-style:normal;
+    font-size:large;
+    color: rgb(37, 4, 249);
+    display: none;
+    border-radius: 40%;
+    height: 100px;
+    width:600px;
+    margin: 5px auto;
+    padding: 50px;
+    margin-bottom: 20px;
+    
+}
+
+h2{
+    color: rgb(37, 4, 249);
+    text-align: justify;
+    text-align: left;
+}
+
+.img2{
+    align-items: right;
+}
+
+.settings{
+    contain: content;
+    position:absolute;
+    background-color: aliceblue;
+    color: rgb(37, 4, 249);
+    margin-left: 0%;
+    padding: 5.4px;
+    width: 6%;
+    height: 7%;
+    transition: height 1s;
+    align-items:last baseline;
+    border: 2px solid rgb(37, 4, 249);
+    opacity: 0.8;
+    box-shadow: 4px 7px rgb(37, 4, 249, 0.6);
+    
+}
+
+#settings {transition-timing-function: ease-in-out;}
+
+.settings:hover {
+    
+    height: 28%
+  }
+
+
+.name-input,
+.email-input{
+    width: 30%;
+    height: 30%;
+
+}
+
